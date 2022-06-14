@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Google</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Teste Login</h1>
+
+    <main>
+
+        <div id="buttonDiv"></div>
+
+    </main>
+
+    <p>Nome completo: <span id="fullName"></span></p>
+    <br>
+
+    <p>ID Google: <span id="sub"> </span> </p>  
+    <br>
+
+    <p>Primeiro Nome: <span id="given_name" > </span> </p>
+    <br>
+
+    <p>Segundo Nome: <span id="family_name" > </span> </p>   
+    <br>
+
+    <p>Email Google: <span id="email" > </span> </p> 
+    <br>
+
+    <p> Email Verificado: <span  id="verifiedEmail" > </span> </p>
+    <br>
+
+    <p> Imagem Email: <img id="picture"/> </p>
+    <br>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+    <script src="script.js" >  </script>
+</body>
+</html>

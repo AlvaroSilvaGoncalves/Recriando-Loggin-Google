@@ -1,0 +1,31 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F7;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+#buttonDiv{
+    padding-top: 20px;
+    margin: auto;
+
+}
+
+p {
+    padding: 10px;
+}
